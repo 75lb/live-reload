@@ -1,0 +1,16 @@
+{
+  "name": "lws-livereload",
+  "author": "Lloyd Brookes <75pound@gmail.com>",
+  "version": "0.0.0",
+  "description": "lws-livereload",
+  "repository": "https://github.com/lwsjs/lws-livereload.git",
+  "license": "MIT",
+  "keywords": [],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {},
+  "dependencies": {
+    "koa-livereload": "^0.2.0"
+  }
+}
