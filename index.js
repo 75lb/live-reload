@@ -1,4 +1,7 @@
 module.exports = MiddlewareBase => class LiveReload extends MiddlewareBase {
+  description () {
+    return 'Adds live-reload support.'
+  }
   optionDefinitions () {
     return [
       {

@@ -1,8 +1,8 @@
 {
-  "name": "lws-livereload",
+  "name": "lws-live-reload",
   "author": "Lloyd Brookes <75pound@gmail.com>",
   "version": "0.0.0",
-  "description": "lws-livereload",
+  "description": "Adds live-reload support to lws",
   "repository": "https://github.com/lwsjs/livereload.git",
   "license": "MIT",
   "keywords": [ "lws", "ws", "livereload" ],
