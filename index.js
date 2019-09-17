@@ -1,4 +1,6 @@
-module.exports = MiddlewareBase => class LiveReload extends MiddlewareBase {
+const EventEmitter = require('events')
+
+class LiveReload extends EventEmitter {
   description () {
     return 'Adds live-reload support.'
   }
@@ -25,3 +27,5 @@ module.exports = MiddlewareBase => class LiveReload extends MiddlewareBase {
     return livereload(mwOptions)
   }
 }
+
+module.exports = LiveReload

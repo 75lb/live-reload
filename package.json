@@ -3,7 +3,7 @@
   "author": "Lloyd Brookes <75pound@gmail.com>",
   "version": "0.1.0",
   "description": "Adds live-reload support to lws",
-  "repository": "https://github.com/lwsjs/livereload.git",
+  "repository": "https://github.com/lwsjs/live-reload",
   "license": "MIT",
   "keywords": [
     "lws",
